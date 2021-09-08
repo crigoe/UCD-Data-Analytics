@@ -1,5 +1,3 @@
 A = "Test"
 print (A)
-effefe
-effe
-feef
+# This is my first Python project
