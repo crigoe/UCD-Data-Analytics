@@ -30,5 +30,6 @@ print(netflix_data.shape,drop_duplicates.shape)
 
 # drop duplicated of specific col
 
-drop_duplicates= netflix_data.drop_duplicates(subset=['show_id'])
+drop_duplicates= netflix_data.drop_duplicates(subset=['country'])
 print(netflix_data.shape,drop_duplicates.shape)
+print(drop_duplicates['country']
