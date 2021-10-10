@@ -30,9 +30,12 @@ import re
 # zero times or 1
 # output = re.findall("colou?r","This is my color. Loce this colour")
 
+# zero times or more
+output = re.findall("@\w+\W","@John$")
+
 #output = re.findall("\+\d{3}-\d{5}\s\d{4}", "+353-98765 4321")
 
-data = "ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef"
-output = re.findall("\w+@\w+\Wcom", data)
+#data = "ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef, ejhefjhefjhfe, johnsmith12@gmail.com, ejfefhjfehjef"
+#output = re.findall("\w+@\w+\Wcom", data)
 
 print (output)
